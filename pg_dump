@@ -1,0 +1,2 @@
+# Simplest dump
+pg_dump mydb > db.sql
