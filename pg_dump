@@ -1,2 +1,3 @@
 # Simplest dump
 pg_dump mydb > db.sql
+pg_dump -U milanovino milanovino > mv.sql # (on Webfaction servers)

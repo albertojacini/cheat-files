@@ -1,0 +1,11 @@
+# Enter the shell in mydb database
+psql mydb
+
+# Restore db from file
+psql -f dump.sql dbname
+psql -f dump.sql -U <username> -W dbname  # If you need to do it as a user
+
+## Commands from inside the shell
+\list               # Lists all databases in the server
+\dt                 # Lists all table in the db
+\c otherdb	    # Change (\connect) db
