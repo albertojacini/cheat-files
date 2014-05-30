@@ -6,6 +6,8 @@ psql -f dump.sql dbname
 psql -f dump.sql -U <username> -W dbname  # If you need to do it as a user
 
 ## Commands from inside the shell
+\?		    # Lists all psql slash commands
 \list               # Lists all databases in the server
 \dt                 # Lists all table in the db
 \c otherdb	    # Change (\connect) db
+
