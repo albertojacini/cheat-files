@@ -10,6 +10,7 @@ psql -f dump.sql -U <username> -W dbname  # If you need to do it as a user
 \list               # Lists all databases in the server
 \dt                 # Lists all table in the db
 \c otherdb	    # Change (\connect) db
+\d+ tablename       # Print table schema (structure)
 
 ## Sql
 CREATE USER username;
